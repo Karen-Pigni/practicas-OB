@@ -1,8 +1,8 @@
 const datos = {
-    nombre: "Gorka",
-    apellido: "Villar",
-    edad: 34,
-    altura: 171,
+    nombre: "Karen",
+    apellido: "Pigni",
+    edad: 31,
+    altura: 156,
     eresDesarrollador: true
 }
 
