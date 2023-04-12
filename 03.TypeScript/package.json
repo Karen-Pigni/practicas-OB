@@ -1,0 +1,38 @@
+{
+    "name": "03.TypeScript",
+    "version": "1.0.0",
+    "description": "Proyecto de ejemplo para el desarrollo con TS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tsNode": "cd src && ts-node index.ts",
+        "start": "nodemon",
+        "transpilation": "tsc",
+        "build:prod": "rimraf ./build && tsc",
+        "start:prod": "npm run build:prod && node build/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Karen-Pigni/practicas-OB.git"
+    },
+    "keywords": [
+        "typescript",
+        "ts"
+    ],
+    "author": "@Karen-Pigni",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Karen-Pigni/practicas-OB/issues"
+    },
+    "homepage": "https://github.com/Karen-Pigni/practicas-OB#readme",
+    "devDependencies": {
+        "@types/node": "^18.15.11",
+        "nodemon": "^2.0.22",
+        "rimraf": "^5.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "typescript-nodejs-proyect-template": "^1.0.6"
+    }
+}
